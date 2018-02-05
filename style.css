@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #efefef;
+    color: #000000;
+    font-family: 'PT Sans Narrow',sans-serif;
+}
+
+.business_card {
+    position: relative;
+    width: 940px;
+    height: 470px;
+    left: 200px;
+    top: 100px;
+    background-color: white;
+    padding: 33px 33px 22px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+}
+
+.foto img {
+    width: 300px;
+}
+
+.download img {
+    position: absolute;
+    top: 365px;
+    left: 80px;
+}
+
+.freelance p{
+    margin: 20px;
+    padding-left: 70px;
+    color: #757575;
+}
+
+.freelance img{
+    position: absolute;
+    width: 16px;
+    top: 420px;
+    left: 83px;
+}
+
+.download {
+    margin: 10px 0 10px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+}
+
+.download p {
+    color: #757575;
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.right_business_card {
+    position: absolute;
+    width: 475px;
+    height: 235px;
+    left: 360px;
+    top:0px;
+
+}
+
+.i {
+    margin: 30px 0 30px;
+}
+
+.i h2 {
+    color: #0487cc;
+}
+
+.i span {
+    color: #000000;
+}
+
+.i h3 {
+    font-weight: normal;
+}
+
+.about_me {
+    line-height: 2;
+}
+li {
+    list-style: none;
+}
+
+.contacts {
+    margin: 30px 0 10px;
+}
+
+.title-info {
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.right-info {
+    margin-left: 260px;
+    margin-top: -90PX;
+}
+
+.i h3,
+.social p,
+.title-info {
+    color: #757575;
+}
+
+.social_networks {
+    margin-top: 10px;
+    display: flex;
+}
+.social_networks a{
+    margin: 0 7px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+}
+
+.social_networks a:hover{
+    background-color: #0487cc;
+}
+
