@@ -126,6 +126,158 @@ li {
     background-color: #0487cc;
 }
 
+/*skills*/
+
+.skills_caption {
+    padding: 200px 0 80px;
+    text-align: center;
+    color: #0487cc;
+    font-size: 30px;
+}
+
+.skills_block {
+    display: flex;
+}
+
+.left_skills_block {
+    width: 380px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.right_skills_block {
+    width: 550px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.skills_title_left,
+.skills_title_right {
+    padding: 12px;
+    color: white;
+    background-color: #0487cc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    text-align: center;
+    width: 250px;
+    margin: -55px 0 20px 35px;
+}
+
+.skills_title_right {
+    margin-left: 100px;
+}
+
+.title-progress {
+    display: flex;
+}
+
+.skill-name {
+    color: #757575;
+}
+
+.skill-value {
+    color: #757575;
+    margin-left: auto;
+}
+
+.progress {
+    background-color: #757575;
+    height: 14px;
+    margin-bottom: 13px;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #0487cc;
+}
+
+.right_skills_block_top {
+    margin: 50px auto;
+}
+
+.graph_percentage {
+    width: 6%;
+    margin: 0 0 -150px -28px;
+    height: 150px;
+    padding-top: 6px;
+    color: #757575;
+}
+
+.graph_block {
+    height: 150px;
+    align-items: flex-end;
+    display: flex;
+    border-bottom: 1px solid #757575;
+    border-left: 1px solid #757575;}
+
+.right_skills_block_top_items {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    margin-left: 70px;
+    background-color: #0487cc;
+    margin-top: 15px;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.column_1 {
+    height: 69%;
+}
+
+.column_2 {
+    height: 60%;
+}
+
+.column_3 {
+    height: 90%;
+}
+
+.title_graph {
+    display: flex;
+    color: #757575;
+}
+
+.title_graph_1 {
+    margin: 0 45px 0 62px;
+}
+
+.title_graph_2 {
+    margin-right: 45px;
+}
+
+.other {
+    width: 50%;
+    float: left;
+    color: #757575;
+}
+
+.skill {
+    padding-bottom: 6px;
+}
+
+.skills_check {
+    margin-right: 5px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+
+.skills_check:before {
+    content: "\f046";
+    color: #0487cc;
+}
+
+.skills_bottom {
+    margin-top: 30px;
+}
+
 /*education*/
 
 .education_caption {
@@ -140,12 +292,11 @@ li {
 }
 
 .education_block_item {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     width: 270px;
     height: 330px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
     background-color: white;
-    margin-bottom: 30px;
     padding: 30px;
 }
 
